@@ -1,0 +1,17 @@
+{
+  "name": "smlrods/todo",
+  "authors": [
+    {
+      "name": "smlrods"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^10.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  }
+}
